@@ -64,3 +64,10 @@ A runner is a server that runs your workflows when they're triggered. Each runne
 Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine. If you need 
 a different operating system or require a specific hardware configuration, you can host your own runners. For more information about self-hosted 
 runners, see "Hosting your own runners."
+
+
+1. For these steps, we need to create the .yml file
+2. Click "set up a workflow yourself" from GitHub Actions section
+3. Default document received.
+4. Added compile and test jobs.
+5.Changes are saved.
