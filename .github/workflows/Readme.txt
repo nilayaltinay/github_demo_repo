@@ -64,4 +64,3 @@ A runner is a server that runs your workflows when they're triggered. Each runne
 Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine. If you need 
 a different operating system or require a specific hardware configuration, you can host your own runners. For more information about self-hosted 
 runners, see "Hosting your own runners."
-
