@@ -71,3 +71,5 @@ runners, see "Hosting your own runners."
 3. Default document received.
 4. Added compile and test jobs.
 5.Changes are saved.
+6. After the file is saved, all code files and unit test are tested automatically.
+7. This automation works again with every change made. Thus, the scripts are saved and automatically tested.
