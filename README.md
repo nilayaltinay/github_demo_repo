@@ -2,8 +2,7 @@
 
 ## …or create a new repository on the command line
 
-…or create a new repository on the command line
-echo "# nilayaltinay" >> README.md
+echo "# github_demo_repo" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
