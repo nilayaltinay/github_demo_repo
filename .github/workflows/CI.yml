@@ -35,7 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-       # to be able to compile and test the application.   
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
