@@ -7,12 +7,8 @@ class MyTest(unittest.TestCase):
     def setUp(self):
         print("You have called setUp()")
 
-    
-    def test_split(self):
-        s = 'hello World'
-        # check that s.split fails when the separator is not a string
-        with self.assertRaises(TypeError):
-            s.split()
+    def test_func_1(self):
+        pass
 
     def test_func_2(self):
         pass
@@ -27,15 +23,9 @@ class MyTest(unittest.TestCase):
         self.assertTrue('FOO'.isupper())
         self.assertFalse('Foo'.isupper())
 
-    def test_string(self):
-        a = 'some'
-        b = 'some'
-        self.assertFalse(a, b)
-
-    def test_boolean(self):
-        a = True
-        b = True
-        self.assertEqual(a, b)
+    def test_split(self):
+        s = 'hello world'
+        self.assertEqual(s.split(), ['hello', 'world'])
 
 
     def tearDown(self):
@@ -44,3 +34,4 @@ class MyTest(unittest.TestCase):
         
 if __name__== "__main__":
     unittest.main()
+
