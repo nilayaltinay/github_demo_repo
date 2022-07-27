@@ -1,4 +1,3 @@
-
 import unittest
 
 
@@ -7,7 +6,8 @@ class MyTest(unittest.TestCase):
     def setUp(self):
         print("You have called setUp()")
 
-   
+    def test_func_1(self):
+        pass
 
     def test_func_2(self):
         pass
@@ -22,11 +22,9 @@ class MyTest(unittest.TestCase):
         self.assertTrue('FOO'.isupper())
         self.assertFalse('Foo'.isupper())
 
-
-    def test_boolean(self):
-        a = True
-        b = True
-        self.assertEqual(a, b)
+    def test_split(self):
+        s = 'hello world'
+        self.assertEqual(s.split(), ['hello', 'world'])
 
 
     def tearDown(self):
